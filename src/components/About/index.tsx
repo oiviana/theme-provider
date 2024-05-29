@@ -1,7 +1,7 @@
 export default function About(){
     return(
         <div className="text-dark-500 dark:text-light-300 flex flex-col gap-5">
-            <h1 className=" flex items-center text-lg lg:text-4xl  font-semibold gap-3 mb-5"><span className="text-lg lg:text-5xl">🎨</span> Uma forma simples de passar temas no seu projeto, de forma global!</h1>
+            <h1 className=" flex items-center text-lg lg:text-4xl  font-semibold gap-3 mb-5"><span className="text-lg lg:text-5xl">🎨</span> Uma forma simples de passar temas no seu projeto de forma global!</h1>
             <article className="text-lg lg:text-xl text-justify !leading-8">
                 {"O 'Next Themes' possibilita uma forma simples e concisa de compartilhar temas claros e escuros na sua aplicação, utilizando Tailwind CSS."}
             </article>
