@@ -14,7 +14,7 @@ export default function Counter() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-around max-w-[320px] border-2 dark:border-dark-300 rounded h-44">
+    <div className="flex flex-col items-center justify-around max-w-[320px] border-2 dark:border-dark-300 rounded h-44 mx-auto lg:mx-0 p-1">
     <h2 className="text-base lg:text-xl">Esse é um Client Component</h2>
     <div className="flex text-lg lg:text-2xl">
       <button className="w-16  rounded flex justify-center items-center bg-white dark:bg-dark-300"
