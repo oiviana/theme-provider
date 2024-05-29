@@ -13,24 +13,24 @@ export default function ThemeSwitcher() {
 
   if (!mounted)
     return (
-      <button className="p-1 px-2 rounded-md  bg-slate-500 animate-pulse w-14 h-11" />
+      <button className="p-1 px-2 rounded-md  bg-slate-500 animate-pulse w-14 h-12" />
     );
 
   return (
     <>
       {theme === "dark" ? (
         <button
-          className="p-1 px-2 rounded-md flex justify-center items-center border-2 border-slate-500"
+          className="p-1 px-2 rounded-md flex justify-center items-center border-2 border-dark-300"
           onClick={() => setTheme("light")}
         >
           <GoSun size={35} />
         </button>
       ) : (
         <button
-          className="p-1 px-2 rounded-md flex justify-center items-center border-2 border-slate-500"
+          className="p-1 px-2 rounded-md flex justify-center items-center border-2 border-light-100"
           onClick={() => setTheme("dark")}
         >
-          <WiMoonAltWaxingCrescent4 size={35} />
+          <WiMoonAltWaxingCrescent4 size={35} className="text-dark-300"/>
         </button>
       )}
     </>
