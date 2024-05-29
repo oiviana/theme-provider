@@ -13,7 +13,7 @@ export default function ThemeSwitcher() {
 
   if (!mounted)
     return (
-      <button className="p-1 px-2 rounded-md  bg-slate-500 animate-pulse w-14 h-12" />
+      <button className="p-1 px-2 rounded-md  bg-light-100 dark:bg-dark-300 animate-pulse w-14 h-12" />
     );
 
   return (
