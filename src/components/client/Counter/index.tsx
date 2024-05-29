@@ -14,16 +14,16 @@ export default function Counter() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-around max-w-[320px] border-2 dark:border-dark-300 rounded h-44 mx-auto lg:mx-0 p-1">
-    <h2 className="text-base lg:text-xl">Esse é um Client Component</h2>
+    <div className="flex flex-col shadow-sm items-center justify-around max-w-[320px] rounded h-48 p-2 bg-white dark:bg-dark-300">
+    <h2 className="text-base lg:text-xl font-semibold">Esse é um Client Component</h2>
     <div className="flex text-lg lg:text-2xl">
-      <button className="w-16  rounded flex justify-center items-center bg-white dark:bg-dark-300"
+      <button className="w-16 shadow rounded flex justify-center items-center bg-light-300 dark:bg-dark-500"
       onClick={handleDecrement}>
         -
       </button>
-      <span className="w-40  flex justify-center"> {counter} </span>
+      <span className="w-40 flex justify-center"> {counter} </span>
       <button
-        className="w-16 rounded flex justify-center items-center bg-white dark:bg-dark-300"
+        className="w-16 shadow rounded flex justify-center items-center bg-light-300 dark:bg-dark-500"
         onClick={handleIncrement}
       >
         +
